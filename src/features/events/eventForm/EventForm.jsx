@@ -1,7 +1,7 @@
 import React from 'react';
 import {Segment, Header, Form, Button } from 'semantic-ui-react'
 
-export default function EventForm({setFormOpen}) {
+export default function   EventForm({setFormOpen, }) {
     return (
         <Segment clearing>
             <Header content='Create new event' />
