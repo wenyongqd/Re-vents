@@ -3,7 +3,7 @@ import { Segment, Item, Icon, List, Button } from 'semantic-ui-react'
 import EventListAttendee from './EventListAttendee'
 import { Link } from 'react-router-dom'
 
-export default function EventListItem({ event, selectEvent, deleteEvent }) {
+export default function EventListItem({ event, deleteEvent }) {
     return (
         <Segment.Group>
             <Segment>
