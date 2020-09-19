@@ -4,6 +4,7 @@ import EventList from "./EventList";
 import { sampleData } from "../../../app/api/sampleData";
 
 export default function EventDashboard() {
+    
     const [events, setEvents] = useState(sampleData);
 
     // function handleCreateEvent(event) {
