@@ -17,6 +17,6 @@ export function updateEvent(event) {
 export function deleteEvent(eventId) {
     return {
         type: DELETE_EVENT,
-        payload: eventId
+        payload: eventId 
     }
 }

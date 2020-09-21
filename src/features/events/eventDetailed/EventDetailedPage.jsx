@@ -11,12 +11,12 @@ export default function EventDetailedPage({match}) {
     return (
         <Grid>
             <Grid.Column width={10}>
-                <EventDetailedHeader />
-                <EventDetailedInfo />
+                <EventDetailedHeader event={event}/>
+                <EventDetailedInfo event={event}/>
                 <EventDetailedChat />
             </Grid.Column>
             <Grid.Column width={6}>
-                <EventDetailedSidebar />
+                <EventDetailedSidebar attendees={event.attendees} />
             </Grid.Column>
         </Grid>
     )
